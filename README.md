@@ -139,6 +139,8 @@ python3 ./scripts/generate_crc32c_table.py > src/crc32c_table.v
 v test .
 ```
 
+For the tests that use precompressed Alice, [this](https://github.com/CG-SS/snappy-compress) was used to create it.
+
 ## Acknowledgements
 
 - [Google Snappy](https://github.com/google/snappy) — The original C++ implementation and format specification
